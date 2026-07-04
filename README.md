@@ -12,13 +12,13 @@ The full field journal lives at **[kyuppido.github.io/portfolio](https://kyuppid
 
 ### Field work
 
-- **[forum](https://github.com/KYUPPIDO/forum)** &middot; go &middot; sqlite &middot; docker
+- **[forum](https://github.com/KYUPPIDO/forum)** &middot; go &middot; sqlite &middot; docker<br>
   A discussion platform built from scratch: bcrypt auth, UUID sessions, posts, comments, votes.
-- **[net-cat](https://github.com/KYUPPIDO/net-cat)** &middot; go &middot; tcp &middot; goroutines
+- **[net-cat](https://github.com/KYUPPIDO/net-cat)** &middot; go &middot; tcp &middot; goroutines<br>
   The classic `nc` rebuilt as a group chat: one server, many clients, pure standard library.
-- **[lem-in](https://github.com/KYUPPIDO/lem-in)** &middot; go &middot; graphs &middot; pathfinding
+- **[lem-in](https://github.com/KYUPPIDO/lem-in)** &middot; go &middot; graphs &middot; pathfinding<br>
   A digital ant farm: disjoint shortest paths and optimal colony distribution.
-- **groupie-tracker** &middot; go &middot; rest apis &middot; openstreetmap
+- **groupie-tracker** &middot; go &middot; rest apis &middot; openstreetmap<br>
   Concert discovery with server-side merging and a geocoded venue map. Write-up on [the portfolio](https://kyuppido.github.io/portfolio/).
 
 ### The strata
