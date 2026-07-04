@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 540" role="img" aria-label="Hand-drawn cross-section of a tree: the canopy is labeled HTML, CSS and JS; the trunk is labeled Go; the roots are labeled SQL; the mycelium threads below are labeled TCP and goroutines.">
+  <style>
+    .ln { stroke: #2C3527; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .ln-thin { stroke: #2C3527; stroke-width: 1.4; fill: none; stroke-linecap: round; }
+    .myc { stroke: #4E6B3C; stroke-width: 1.75; fill: none; stroke-linecap: round; stroke-dasharray: .5 6; }
+    .connector { stroke: #6E5439; stroke-width: 1; fill: none; stroke-dasharray: 3 4; opacity: .7; }
+    .wash { fill: rgba(78, 107, 60, .12); stroke: #2C3527; stroke-width: 2; stroke-linejoin: round; }
+    .fig-t { font-family: "Courier Prime", "Courier New", monospace; font-size: 15px; fill: #2C3527; }
+    .strong { fill: #3E5730; font-weight: 700; }
+    .soft { fill: #6E5439; }
+    .tiny { font-size: 12.5px; font-style: italic; }
+  </style>
+  <!-- plate -->
+  <rect x="1.5" y="1.5" width="517" height="537" rx="10" fill="#F0EEE2" stroke="rgba(44,53,39,.35)" stroke-width="1.5"/>
+  <!-- ground -->
+  <path class="ln" d="M18 332 C 80 328, 140 336, 205 331 C 270 327, 330 336, 400 331 C 440 328, 470 333, 502 330"/>
+  <path class="ln-thin" d="M96 329 c 1 -5, 3 -8, 5 -10"/>
+  <path class="ln-thin" d="M104 330 c 3 -4, 6 -6, 9 -7"/>
+  <path class="ln-thin" d="M382 330 c 1 -5, 3 -8, 5 -10"/>
+  <path class="ln-thin" d="M390 331 c 3 -4, 6 -6, 9 -7"/>
+  <!-- trunk -->
+  <path class="ln" d="M247 331 C 246 300, 249 268, 251 236 C 252 216, 252 200, 253 190"/>
+  <path class="ln" d="M275 331 C 274 304, 271 270, 268 240 C 266 220, 265 204, 264 192"/>
+  <!-- branches -->
+  <path class="ln" d="M256 196 C 246 176, 226 160, 200 150"/>
+  <path class="ln" d="M262 194 C 274 172, 296 158, 322 150"/>
+  <path class="ln" d="M259 196 C 258 180, 259 166, 261 152"/>
+  <!-- canopy -->
+  <path class="wash" d="M118 128 C 100 96, 132 66, 172 74 C 182 44, 238 34, 268 52 C 296 30, 352 40, 362 70 C 402 66, 428 98, 408 126 C 428 152, 392 178, 352 168 C 332 190, 272 194, 244 176 C 208 192, 152 184, 142 158 C 116 156, 104 144, 118 128 Z"/>
+  <path class="ln-thin" d="M180 122 c 8 -6, 18 -4, 22 2"/>
+  <path class="ln-thin" d="M250 88 c 10 -8, 22 -4, 24 4"/>
+  <path class="ln-thin" d="M318 126 c 8 -6, 18 -6, 24 0"/>
+  <!-- roots -->
+  <path class="ln" d="M250 332 C 236 356, 208 368, 176 376"/>
+  <path class="ln-thin" d="M176 376 C 160 380, 148 378, 136 382"/>
+  <path class="ln" d="M256 334 C 254 368, 242 396, 220 418"/>
+  <path class="ln-thin" d="M220 418 C 210 428, 198 432, 186 434"/>
+  <path class="ln" d="M268 333 C 280 358, 306 372, 338 378"/>
+  <path class="ln-thin" d="M338 378 C 354 382, 366 380, 378 384"/>
+  <path class="ln" d="M263 336 C 270 380, 290 408, 318 428"/>
+  <path class="ln-thin" d="M318 428 C 328 436, 340 440, 352 442"/>
+  <path class="ln-thin" d="M259 335 C 259 352, 257 366, 252 380"/>
+  <!-- mycelium -->
+  <path class="myc" d="M136 382 C 104 392, 76 388, 44 398"/>
+  <path class="myc" d="M186 434 C 158 448, 124 452, 92 464"/>
+  <path class="myc" d="M378 384 C 410 392, 440 388, 472 398"/>
+  <path class="myc" d="M352 442 C 382 454, 416 458, 448 468"/>
+  <path class="myc" d="M220 418 C 260 442, 300 442, 318 428"/>
+  <!-- labels -->
+  <g>
+    <text class="fig-t strong" x="24" y="38">canopy</text>
+    <text class="fig-t" x="24" y="54">HTML &#183; CSS &#183; JS</text>
+    <path class="connector" d="M64 62 C 78 76, 94 88, 112 98"/>
+    <text class="fig-t strong" x="496" y="238" text-anchor="end">trunk</text>
+    <text class="fig-t" x="496" y="254" text-anchor="end">Go &#183; servers &amp; APIs</text>
+    <path class="connector" d="M318 248 C 306 250, 293 251, 281 251"/>
+    <text class="fig-t tiny soft" x="22" y="320">ground level</text>
+    <text class="fig-t strong" x="24" y="466">roots</text>
+    <text class="fig-t" x="24" y="482">SQL &#183; data modeling</text>
+    <path class="connector" d="M96 460 C 122 452, 152 446, 182 438"/>
+    <text class="fig-t strong" x="496" y="508" text-anchor="end">mycelium</text>
+    <text class="fig-t" x="496" y="524" text-anchor="end">TCP &#183; goroutines &#183; channels</text>
+    <path class="connector" d="M468 496 C 460 488, 454 480, 448 472"/>
+  </g>
+</svg>
