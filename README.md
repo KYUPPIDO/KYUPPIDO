@@ -23,11 +23,12 @@ The full field journal lives at **[kyuppido.github.io/portfolio](https://kyuppid
 
 ### The strata
 
+- **climate** &middot; *how the work grows* : project management &middot; data analysis &middot; teamwork
 - **canopy** &middot; *what people touch* : HTML &middot; CSS &middot; JavaScript
 - **understory** &middot; *what does the work* : Go, plus Python and Java on the side
 - **soil** &middot; *what persists* : SQL &middot; SQLite &middot; MySQL
 - **mycelium** &middot; *what connects* : TCP sockets &middot; goroutines &middot; channels
-- **bedrock** &middot; *always there* : Git &middot; Linux &middot; Docker &middot; VS Code
+- **bedrock** &middot; *always there* : Git &middot; Linux &middot; Docker &middot; VS Code &middot; Canva
 
 <p align="center"><img src="assets/divider.svg" width="170" alt=""></p>
 
